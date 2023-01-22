@@ -17,9 +17,7 @@ def download_youtube_video(url):
     global title
     title = yt.title
     file_size = stream.filesize
-    # Creating a progress bar
     pbar = tqdm(total=file_size, unit='B', unit_scale=True, desc=title)
-    # Downloading the video
     response = requests.get(stream.url, stream=True)
     with open(f"{title}.mp4", "wb") as f:
         for chunk in response.iter_content(chunk_size=1024):
