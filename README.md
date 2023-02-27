@@ -29,6 +29,8 @@ For example, to download a YouTube video, run:
 
 The second argument is for apply slowing down effect on the audio .
 
+The file will be saved on your downloads folder.
+
 ## Links
 
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/guivialle)
